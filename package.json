@@ -1,0 +1,12 @@
+{
+  "name" : "scrapeItAll",
+  "version" : "0.0.1",
+  "description" : "scrape A couple",
+  "main" : "server.js",
+  "author" : "sspohC",
+  "dependencies" : {
+    "cheerio" : "latest",
+    "express" : "latest",
+    "request" : "latest"
+  }
+}
