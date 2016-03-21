@@ -160,4 +160,12 @@ app.get('/lolzor', function(req, res, next) {
     myLoop()
 });
 
+app.get('/scrape', function(req, res, next) {
+  var wellNums = [];
+  fs.readFile('claiborne.json', function(err, data) {
+    wellNums = JSON.parse(data)
+    console.log(wellNums.length);
+  })
+})
+
 app.listen(9001);
